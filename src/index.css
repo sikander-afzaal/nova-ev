@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .wrapper {
+    @apply flex w-full justify-center items-center flex-col px-5;
+  }
+}
+@layer components {
+  .green-btn {
+    @apply text-white font-medium text-xl bg-darkGreen rounded-[5px] h-[45px] hover:bg-transparent border-solid border-[2px] duration-500 border-transparent hover:border-darkGreen hover:text-darkGreen transition-all;
+  }
+  .yellow-btn {
+    @apply text-white font-medium text-xl bg-brightYellow rounded-[5px] h-[45px] hover:bg-transparent border-solid border-[2px] duration-500 border-transparent hover:border-brightYellow hover:text-brightYellow transition-all;
+  }
+  .title {
+    @apply font-bold text-[30px] sm:text-title text-titleBlack;
+  }
+  .para {
+    @apply text-text font-normal text-[24px] leading-[1.3];
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

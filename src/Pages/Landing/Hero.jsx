@@ -28,8 +28,18 @@ const Hero = () => {
             at the comfort of your home.
           </p>
           <div className="flex justify-start items-center gap-3 sm:gap-8 sm:flex-row flex-col sm:w-auto w-full ">
-            <button className="green-btn w-full sm:w-[240px]">Contact</button>
-            <button className="yellow-btn w-full sm:w-[240px]">Pricing</button>
+            <a
+              href="#contact"
+              className="green-btn w-full sm:w-[240px] grid place-items-center no-underline"
+            >
+              Contact
+            </a>
+            <a
+              href="#pricing"
+              className="yellow-btn  w-full sm:w-[240px] grid place-items-center no-underline"
+            >
+              Pricing
+            </a>
           </div>
           <div className="flex justify-start items-center sm:flex-row flex-col  gap-5 sm:gap-9">
             <div className="flex justify-start items-center flex-col gap-2">

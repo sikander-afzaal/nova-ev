@@ -45,7 +45,13 @@ const Header = () => {
           >
             How does It work?
           </a>
-          <button className="green-btn w-[166px]">Contact</button>
+          <a
+            onClick={() => setHeaderToggle(false)}
+            href="#contact"
+            className="green-btn grid place-items-center no-underline w-[166px]"
+          >
+            Contact
+          </a>
         </nav>
         {headerToggle ? (
           <svg

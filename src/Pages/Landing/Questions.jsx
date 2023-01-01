@@ -8,7 +8,12 @@ const Questions = () => {
         <h2 className="text-titleBlack leading-[1.3] text-[25px] sm:text-[32px] xl:text-[48px] font-semibold">
           Reach out to us and our team will be happy to assist.{" "}
         </h2>
-        <button className="yellow-btn w-[240px]">Contact</button>
+        <a
+          href="#contact"
+          className="yellow-btn w-[240px] grid place-items-center no-underline"
+        >
+          Contact
+        </a>
       </div>
     </div>
   );

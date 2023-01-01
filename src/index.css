@@ -24,7 +24,7 @@
 }
 html {
   scroll-behavior: smooth;
-  scroll-padding-block: 50px;
+  scroll-padding-block: 100px;
 }
 * {
   margin: 0;

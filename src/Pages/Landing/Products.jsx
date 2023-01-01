@@ -1,6 +1,6 @@
 const Products = () => {
   return (
-    <div className="wrapper py-[90px]">
+    <div id="pricing" className="wrapper py-[90px]">
       <div className="flex flex-col w-full max-w-theme justify-center items-center gap-[50px]">
         <h2 className="title">Our Products</h2>
         <div className="flex justify-between xl:flex-row flex-col items-center xl:items-stretch w-full gap-5">

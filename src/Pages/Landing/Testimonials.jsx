@@ -31,6 +31,7 @@ const Testimonials = () => {
             perPage: 1,
             width: "100%",
             perMove: 1,
+            rewind: true,
           }}
         >
           <SplideSlide>

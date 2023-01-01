@@ -3,7 +3,7 @@ import { useState } from "react";
 const Header = () => {
   const [headerToggle, setHeaderToggle] = useState(false);
   return (
-    <div className="wrapper pt-[30px]">
+    <div className="wrapper bg-white z-50 py-[20px] fixed top-0 left-0">
       {headerToggle && (
         <div
           onClick={() => setHeaderToggle(false)}
@@ -20,27 +20,27 @@ const Header = () => {
           <a
             onClick={() => setHeaderToggle(false)}
             className="text-titleBlack font-medium text-xl md:text-[18px]  xl:text-xl"
-            href="#"
+            href="#home"
           >
             Home
           </a>
           <a
             onClick={() => setHeaderToggle(false)}
-            href="#"
+            href="#service"
             className="text-titleBlack font-medium text-xl md:text-[18px]  xl:text-xl"
           >
             Service
           </a>
           <a
             onClick={() => setHeaderToggle(false)}
-            href="#"
+            href="#about"
             className="text-titleBlack font-medium text-xl md:text-[18px]  xl:text-xl"
           >
             About Us
           </a>
           <a
             onClick={() => setHeaderToggle(false)}
-            href="#"
+            href="#work"
             className="text-titleBlack font-medium text-xl md:text-[18px]  xl:text-xl"
           >
             How does It work?

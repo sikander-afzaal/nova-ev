@@ -1,6 +1,9 @@
 const Hero = () => {
   return (
-    <div className="wrapper isolate pt-[50px] xl:pt-[100px] relative">
+    <div
+      id="home"
+      className="wrapper isolate pb-7 pt-[150px] xl:pt-[190px] relative"
+    >
       <img
         src="/hero-right.png"
         alt=""

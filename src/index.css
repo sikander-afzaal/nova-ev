@@ -19,10 +19,13 @@
     @apply font-bold text-[30px] sm:text-title text-titleBlack;
   }
   .para {
-    @apply text-text font-normal text-[24px] leading-[1.3];
+    @apply text-text font-normal text-base sm:text-[24px] leading-[1.3];
   }
 }
-
+html {
+  scroll-behavior: smooth;
+  scroll-padding-block: 50px;
+}
 * {
   margin: 0;
   padding: 0;

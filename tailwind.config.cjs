@@ -15,8 +15,16 @@ module.exports = {
       "5xl": "3.052rem",
     },
     extend: {
+      boxShadow: {
+        work: "5px 5px 24px rgba(0, 0, 0, 0.05)",
+        product: "10px 10px 208px rgba(0, 0, 0, 0.06)",
+      },
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
+      },
+      backgroundImage: {
+        "work-pattern": "url('/work-bg.png')",
+        "question-pattern": "url('/question-bg.png')",
       },
       screens: {
         mid: "1400px",
